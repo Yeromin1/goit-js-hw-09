@@ -21,7 +21,7 @@ form.addEventListener('input', event => {
   const { name, value } = event.target;
 
   if (name === 'email') {
-    formData.email = value.trim();
+    formData.email = value.trim().toLowerCase();
   } else if (name === 'message') {
     formData.message = value.trim();
   }
