@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #fff;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -46,4 +41,24 @@ body {
 .sl-wrapper .sl-navigation button.sl-prev,
 .sl-wrapper .sl-counter {
   color: #fff !important;
+}
+
+.link-return-container {
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+}
+
+.link-return {
+  padding: 8px 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.link-return-container:hover {
+  transform: scale(1.05);
 }
